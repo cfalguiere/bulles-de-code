@@ -1,0 +1,58 @@
+groups:
+
+  - id: machine-learning
+    name: Machine Learning
+    items:
+      - id: H2O
+        name: Présentation H2O à Devoxx France
+        url: https://www.youtube.com/watch?v=pA3eZQzkzwo
+        lang: French
+        year: 2016
+
+
+  - id: clojure
+    name: Clojure
+    items:
+      - id: clojure-di
+        name: Présentation Clojure et Dependency Ingestion
+        relative_url: Pres-DI-Clojure/index.html
+        lang: French
+        year:
+
+  - id: devops
+    name: Devops
+    items:
+      - id: perf-ht
+        name: Performances au Human Talks
+        url: https://cfalguiere.wordpress.com/2015/04/12/talk-performances-au-human-talks/
+        lang: French
+        year: 2015
+      - id: perf-ht
+        name: Monitoring at Devoxx 2014
+        url: https://cfalguiere.wordpress.com/2014/11/13/monitoring-at-devoxx-2014/
+        lang: French
+        year: 2015
+      - id: devops-wit
+        name: Présentation Devops au Women Techmakers
+        relative_url: Pres-Devops-Women-Techmakers/index.html
+        lang: French
+        year: 2014
+      - id: monitoring-brz
+        name: Présentation Monitoring au Breizhcamp
+        url: http://fr.slideshare.net/claude.falguiere/pres-monitoring-v2
+        lang: French
+        year: 2014
+
+  - id: leap-motion
+    name: Leap Motion
+    items:
+      - id: leap-motion-brz
+        name: Présentation Processing Leap Motion au Breizhcamp
+        relative_url: Pres-Processsing-Hermes-Leap/index.html
+        lang: French
+        year: 2014
+      - id: air-breakout-brz
+        name: projet associé Air Breakout
+        url: https://github.com/cfalguiere/Air-Breakout
+        lang: English
+        year: 2014
