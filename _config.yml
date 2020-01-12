@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "shadow_purple" #"dark" # "default" # "air", "aqua", 
 
 # Site Settings
 locale                   : "fr-FR"
-title                    : "Le pixel bleu"
+title                    : "Bulles de code"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Claude Falguière"
