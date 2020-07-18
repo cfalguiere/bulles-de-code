@@ -18,10 +18,13 @@ main:
 landpage:
   - title: "Blog"
     url: /blog/
-    image: landpage-actualites-w595.png
+    image: scene1-1200-480.svg
+  - title: "Talks"
+    url: /talks/
+    image: scene2-1200-560.svg
   - title: "Photos"
     url: /photos/
-    image: landpage-posters-w595.png
+    image: scene3-1200-600.svg
   - title: "Qui suis je ?"
     url: /about/
-    image: landpage-about-w595.png
+    image: scene4-1200-600.svg
