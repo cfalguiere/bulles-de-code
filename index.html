@@ -31,8 +31,9 @@ page_assets: /assets/images/landpage/
    <div style="position:relative" id="bubbles">
      <img style="width:100%;height:{{item.height}};object-fit: contain;margin: 0"
      src="{{site.baseurl}}{{page.page_assets}}{{item.image}}"/>
-     <div style="position:absolute;z-index:8;top:10%;left:50%" id="text-overlay">
-       <p>sample text</p>
+     <div style="position:absolute;z-index:8;top:{{item.text-top-offset}};left:{{item.text-left-offset}}"
+          id="text-overlay">
+       <p>{{item.text}}</p> 
      </div>
      <div style="position:absolute;z-index:9;top:50%;left:50%" id="button-overlay">
        <a href="{{site.baseurl}}{{item.url}}" style="color:#eaeaea;">

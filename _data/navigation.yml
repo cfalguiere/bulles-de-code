@@ -20,19 +20,28 @@ landpage:
     url: /blog/
     image: scene1-1200-480.svg
     height: 480
+    text-left-offset: 50%
+    text-top-offset: 15%
+    text: sample <b>sample</b>
     button: button-lla.svg
   - title: "Talks"
     url: /talks/
     image: scene2-1200-560.svg
     height: 560
+    text-left-offset: 10%
+    text-top-offset: 15%
     button: button-lla.svg
   - title: "Photos"
     url: /photos/
     image: scene3-1200-600.svg
     height: 600
+    text-left-offset: 60%
+    text-top-offset: 15%
     button: button-vlp.svg
   - title: "Qui suis je ?"
     url: /about/
     image: scene4-1200-600.svg
     height: 600
+    text-left-offset: 0%
+    text-top-offset: 15%
     button: button-esp.svg
