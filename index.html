@@ -28,16 +28,21 @@ page_assets: /assets/images/landpage/
 <!-- FIXME -->
 <div style="background-color: ffffff;">
 {% for item in site.data.navigation.landpage %}
-    <img style="width:100%;height:{{item.height}};object-fit: contain;margin: 0"
+   <div id="bubbles">
+     <img style="width:100%;height:{{item.height}};object-fit: contain;margin: 0"
      src="{{site.baseurl}}{{page.page_assets}}{{item.image}}"/>
-    <a href="{{site.baseurl}}{{item.url}}" style="color:#eaeaea;">
+     <div style="position:fixed;top:50%;left:50%" id="button-overlay">
+       <a href="{{site.baseurl}}{{item.url}}" style="color:#eaeaea;">
       <!--
       <div style="background-color: #1c488c;height:299px;width:595px;margin: 0 10px 10px 0;padding:10px;float:left;">
         <span style="font-size:1.5em;font-family: 'Dancing Script', cursive;font-weight: bold;">Actualités</span>
       </div>
       -->
-        <img style="width:204;height:48;object-fit: contain;margin: 0"
+
+        <img style="width:20%;object-fit: contain;margin: 0"
              src="{{site.baseurl}}{{page.page_assets}}{{item.button}}"/>
-    </a>
+      </a>
+    </div>
+  </div>
 {% endfor %}
 </div>
