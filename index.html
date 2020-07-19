@@ -28,7 +28,7 @@ page_assets: /assets/images/landpage/
 <!-- FIXME -->
 <div style="background-color: ffffff;">
 {% for item in site.data.navigation.landpage %}
-   <div id="bubbles">
+   <div style="position:relative" id="bubbles">
      <img style="width:100%;height:{{item.height}};object-fit: contain;margin: 0"
      src="{{site.baseurl}}{{page.page_assets}}{{item.image}}"/>
      <div style="position:absolute;z-index:8;top:10%;left:50%" id="text-overlay">
