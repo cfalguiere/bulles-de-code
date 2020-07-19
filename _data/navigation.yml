@@ -33,7 +33,7 @@ landpage:
     text-left-offset: 10%
     text-top-offset: 15%
     text: sample <b>sample</b>
-    button-left-offset: 2%
+    button-left-offset: 20%
     button-top-offset: 40%
     button: button-lla.svg
   - title: "Photos"
