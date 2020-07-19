@@ -20,15 +20,19 @@ landpage:
     url: /blog/
     image: scene1-1200-480.svg
     height: 480
+    button: button-lla.svg
   - title: "Talks"
     url: /talks/
     image: scene2-1200-560.svg
     height: 560
+    button: button-lla.svg
   - title: "Photos"
     url: /photos/
     image: scene3-1200-600.svg
     height: 600
+    button: button-vlp.svg
   - title: "Qui suis je ?"
     url: /about/
     image: scene4-1200-600.svg
     height: 600
+    button: button-esp.svg
