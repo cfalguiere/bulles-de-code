@@ -22,7 +22,7 @@ landpage:
     height: 480
     text-left-offset: 50%
     text-top-offset: 15%
-    text: sample <b>sample</b>
+    text: articles récents  <ul><li>sample</li></ul>
     button: button-lla.svg
   - title: "Talks"
     url: /talks/
@@ -30,6 +30,7 @@ landpage:
     height: 560
     text-left-offset: 10%
     text-top-offset: 15%
+    text: sample <b>sample</b>
     button: button-lla.svg
   - title: "Photos"
     url: /photos/
@@ -37,6 +38,7 @@ landpage:
     height: 600
     text-left-offset: 60%
     text-top-offset: 15%
+    text: sample <b>sample</b>
     button: button-vlp.svg
   - title: "Qui suis je ?"
     url: /about/
