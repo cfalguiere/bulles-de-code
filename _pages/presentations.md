@@ -4,7 +4,7 @@ title: "Presentations"
 classes: wide
 assets_folder: /assets/images/presentations/
 author: cfalguiere
-banner: /assets/images/banner-1200-300.png
+banner: /assets/images/banner-1200-300.svg
 ---
 {% for group in site.data.presentations.groups %}
 {{ group.name }}
