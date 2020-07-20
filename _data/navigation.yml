@@ -31,7 +31,7 @@ landpage:
     image: scene2-1200-560.svg
     height: 560
     text-left-offset: 7%
-    text-top-offset: 39%
+    text-top-offset: 38%
     text: Présenations à Devoxx, Voxxed, Breizhcamp
     button-left-offset: 6%
     button-top-offset: 36%
@@ -44,7 +44,7 @@ landpage:
     text-top-offset: 60%
     text: ça arrive bientôt
     button-left-offset: 54%
-    button-top-offset: 57%
+    button-top-offset: 56%
     button: button-vlp.svg
   - title: "Qui suis je ?"
     url: /about/
