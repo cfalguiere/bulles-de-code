@@ -1191,6 +1191,10 @@
     </g>
    </g>
   </g>
+  <g transform="matrix(1.0219 0 0 1.1356 -205.04 1215)">
+   <rect x="555.23" y="626.62" width="144.46" height="33.825" ry="15.525" fill="#afdde9" opacity=".256" stroke-width=".24426"/>
+   <text transform="scale(1.0261 .97455)" x="561.72467" y="666.13959" fill="#ffffff" font-family="'Helvetica Neue'" font-size="16.327px" font-stretch="condensed" font-weight="bold" stroke-width=".52405" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="561.72467" y="666.13959" font-family="'Helvetica Neue'" font-size="16px" font-stretch="condensed" font-weight="bold" stroke-width=".52405" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">En savoir plus</tspan></text>
+  </g>
   <g transform="matrix(.23377 0 0 .22718 468.19 1911.3)">
    <g transform="translate(-238.12 -103.94)">
     <ellipse transform="matrix(.88602 0 0 1.0025 -4.017 -.26085)" cx="34.396" cy="106.21" rx="81.265" ry="73.705" fill="none" filter="url(#bdcbj)" opacity=".87" stop-color="#000000" stroke="#d5fff6" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.1309"/>
@@ -1299,7 +1303,11 @@
     <ellipse transform="matrix(.67822 -.84879 .9888 .1652 -76.043 48.294)" cx="-5.2917" cy="73.327" rx="12.851" ry="7.5595" fill="#d5fff6" filter="url(#bdcq)" opacity=".86" stop-color="#000000" style="mix-blend-mode:normal"/>
    </g>
   </g>
-  <rect x="668.84" y="1183.5" width="177.02" height="55.323" ry="27.662" fill="#afdde9" fill-opacity=".070176" opacity=".998" stop-color="#000000"/>
+  <g transform="matrix(1.0798 0 0 .89544 126.81 586.31)">
+   <rect x="555.23" y="626.62" width="144.46" height="33.825" ry="15.525" fill="#afdde9" opacity=".256" stroke-width=".24426"/>
+   <text transform="scale(1.0261 .97455)" x="561.72467" y="666.13959" fill="#ffffff" font-family="'Helvetica Neue'" font-size="16.327px" font-stretch="condensed" font-weight="bold" stroke-width=".52405" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="561.72467" y="666.13959" font-family="'Helvetica Neue'" font-size="16px" font-stretch="condensed" font-weight="bold" stroke-width=".52405" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Voir les photos</tspan></text>
+  </g>
+  <rect x="674.01" y="1163.3" width="177.02" height="55.323" ry="27.662" fill="#afdde9" fill-opacity=".070176" opacity=".998" stop-color="#000000"/>
  </g>
  <g>
   <g transform="matrix(.24908 0 0 .24985 390.66 686.7)">
@@ -1402,6 +1410,12 @@
     </g>
    </g>
   </g>
+  <g>
+   <g transform="translate(-323.04 95.702)">
+    <rect x="555.23" y="626.62" width="144.46" height="33.825" ry="15.525" fill="#afdde9" opacity=".256" stroke-width=".24426"/>
+    <text transform="scale(1.0261 .97455)" x="561.72467" y="666.13959" fill="#ffffff" font-family="'Helvetica Neue'" font-size="16.327px" font-stretch="condensed" font-weight="bold" stroke-width=".52405" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="561.72467" y="666.13959" font-family="'Helvetica Neue'" font-size="16px" font-stretch="condensed" font-weight="bold" stroke-width=".52405" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Lire les articles</tspan></text>
+   </g>
+  </g>
   <path d="m197.46 486.65s40.36-20.044 89.663-5.1902" fill="none"/>
   <text x="110.97389" y="750.53375" fill="#f2f2f2" font-family="'Heiti SC'" font-size="28px" stroke-width=".75" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="110.97389" y="750.53375" fill="#afdde9">Talks</tspan></text>
   <g transform="matrix(.29152 0 0 .29012 139.82 736.73)">
@@ -1412,7 +1426,7 @@
     <ellipse transform="matrix(.67822 -.84879 .9888 .1652 -76.043 48.294)" cx="-5.2917" cy="73.327" rx="12.851" ry="7.5595" fill="#d5fff6" filter="url(#bdcq)" opacity=".86" stop-color="#000000" style="mix-blend-mode:normal"/>
    </g>
   </g>
-  <rect x="244.76" y="762.75" width="176.43" height="56.084" ry="28.042" fill="#afdde9" fill-opacity=".070176" opacity=".998" stop-color="#000000"/>
+  <rect x="178.31" y="738.17" width="176.43" height="56.084" ry="28.042" fill="#afdde9" fill-opacity=".070176" opacity=".998" stop-color="#000000"/>
  </g>
  <g>
   <g>
@@ -1482,9 +1496,15 @@
    </g>
   </g>
   <g>
+   <g>
+    <g transform="translate(166.51 -256.48)">
+     <rect x="555.23" y="626.62" width="144.46" height="33.825" ry="15.525" fill="#afdde9" opacity=".256" stroke-width=".24426"/>
+     <text transform="scale(1.0261 .97455)" x="561.72467" y="666.13959" fill="#ffffff" font-family="'Helvetica Neue'" font-size="16.327px" font-stretch="condensed" font-weight="bold" stroke-width=".52405" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="561.72467" y="666.13959" font-family="'Helvetica Neue'" font-size="16px" font-stretch="condensed" font-weight="bold" stroke-width=".52405" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Lire les articles</tspan></text>
+    </g>
+   </g>
    <path d="m197.46 486.65s40.36-20.044 89.663-5.1902" fill="none"/>
    <text x="490.62128" y="397.16962" fill="#f2f2f2" font-family="sans-serif" font-size="30px" stroke-width=".75" style="line-height:1.25" xml:space="preserve"><tspan x="490.62128" y="397.16962" fill="#afdde9" font-family="'Heiti SC'" font-size="28px" stroke-width=".75" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Blog</tspan></text>
-   <rect x="666.7" y="408.55" width="176.43" height="56.084" ry="28.042" fill="#afdde9" fill-opacity=".070176" opacity=".998" stop-color="#000000"/>
+   <rect x="663.6" y="385.84" width="176.43" height="56.084" ry="28.042" fill="#afdde9" fill-opacity=".070176" opacity=".998" stop-color="#000000"/>
    <g transform="matrix(.29152 0 0 .29012 520.93 383.37)">
     <g transform="translate(-238.12 -103.94)">
      <ellipse transform="matrix(.88602 0 0 1.0025 -4.017 -.26085)" cx="34.396" cy="106.21" rx="81.265" ry="73.705" fill="none" filter="url(#bdcp)" opacity=".87" stop-color="#000000" stroke="#d5fff6" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.1309"/>
