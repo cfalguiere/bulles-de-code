@@ -20,8 +20,8 @@ landpage:
     url: /blog/
     image: scene1-1200-480.svg
     height: 480
-    text-left-offset: 50%
-    text-top-offset: 20%
+    text-left-offset: 48%
+    text-top-offset: 22%
     text: articles recents xxxxxxxxxx xxxxxxxx xxxxxxxxxx Industrialisation Machine Learning a Voxxed Luxembourg
     button-left-offset: 75%
     button-top-offset: 25%
@@ -31,7 +31,7 @@ landpage:
     image: scene2-1200-560.svg
     height: 560
     text-left-offset: 6%
-    text-top-offset: 40%
+    text-top-offset: 38%
     text: sample <b>sample</b> xxxxxxxxxxxx xxxxxxxxxxxx xxx xxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxx
     button-left-offset: 31%
     button-top-offset: 45%
@@ -41,7 +41,7 @@ landpage:
     image: scene3-1200-600.svg
     height: 600
     text-left-offset: 55%
-    text-top-offset: 62%
+    text-top-offset: 58%
     text: sample <b>sample</b> xxxxxxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxxxx xxxxxxx xxxx xxxxx xxxxxxxxxx
     button-left-offset: 78%
     button-top-offset: 67%
