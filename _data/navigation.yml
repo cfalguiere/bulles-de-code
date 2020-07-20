@@ -51,7 +51,7 @@ landpage:
     image: scene4-1200-600.svg
     height: 600
     text-left-offset: 0%
-    text-top-offset: 15%
+    text-top-offset: 0%
     button-left-offset: 43%
     button-top-offset: 81%
     button: button-esp.svg
