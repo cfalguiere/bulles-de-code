@@ -29,7 +29,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 #logo                     : "/assets/images/logo.png"
 logo                     : "/assets/images/logo.png"
 # removed
-banner                   : "/assets/images/banner-1200-300.png"
+banner                   : "/assets/images/banner-1200-300.svg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 100

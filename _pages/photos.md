@@ -2,6 +2,8 @@
 permalink: /photos/
 title: "Photos"
 layout: splash
+header:
+  image: /assets/images/banner-1200-300.svg
 classes: wide
 assets_folder: /assets/posters/
 ---
