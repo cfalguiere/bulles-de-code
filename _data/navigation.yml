@@ -44,7 +44,7 @@ landpage:
     text-top-offset: 60%
     text: ça arrive bientôt
     button-left-offset: 54%
-    button-top-offset: 56%
+    button-top-offset: 57%
     button: button-vlp.svg
   - title: "Qui suis je ?"
     url: /about/
