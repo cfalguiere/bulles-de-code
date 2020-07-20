@@ -20,11 +20,11 @@ landpage:
     url: /blog/
     image: scene1-1200-480.svg
     height: 480
-    text-left-offset: 606
-    text-top-offset: 570
+    text-left-offset: 606px
+    text-top-offset: 570px
     text: articles recents xxxxxxxxxx xxxxxxxx xxxxxxxxxx Industrialisation Machine Learning a Voxxed Luxembourg
-    button-left-offset: 523
-    button-top-offset: 697
+    button-left-offset: 523px
+    button-top-offset: 697px
     button: button-lla.svg
   - title: "Talks"
     url: /talks/
