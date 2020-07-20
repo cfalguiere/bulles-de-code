@@ -27,7 +27,10 @@ page_assets: /assets/images/landpage/
 
 <!-- FIXME -->
 <div style="background-color: ffffff;">
-{% for item in site.data.navigation.landpage %}
+  <img style="width:100%;height:{{item.height}};object-fit: contain;margin: 0"
+  src="{{site.baseurl}}{{page.page_assets}}landpage.svg"/>
+
+  {% for item in site.data.navigation.landpage %}
    <div style="position:relative" id="bubbles">
      <img style="width:100%;height:{{item.height}};object-fit: contain;margin: 0"
      src="{{site.baseurl}}{{page.page_assets}}{{item.image}}"/>
