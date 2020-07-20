@@ -24,7 +24,7 @@ landpage:
     text-top-offset: 21%
     text: Industrialisation Machine Learning a Voxxed Luxembourg
     button-left-offset: 77%
-    button-top-offset: 19%
+    button-top-offset: 20%
     button: button-lla.svg
   - title: "Talks"
     url: /talks/
