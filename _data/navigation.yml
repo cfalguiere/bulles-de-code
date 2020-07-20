@@ -24,7 +24,7 @@ landpage:
     text-top-offset: 21%
     text: articles recents xxxxxxxxxx xxxxxxxx xxxxxxxxxx Industrialisation Machine Learning a Voxxed Luxembourg
     button-left-offset: 77%
-    button-top-offset: 20%
+    button-top-offset: 19%
     button: button-lla.svg
   - title: "Talks"
     url: /talks/
@@ -34,7 +34,7 @@ landpage:
     text-top-offset: 39%
     text: sample <b>sample</b> xxxxxxxxxxxx xxxxxxxxxxxx xxx xxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxx
     button-left-offset: 31%
-    button-top-offset: 40%
+    button-top-offset: 35%
     button: button-lla.svg
   - title: "Photos"
     url: /photos/
@@ -53,5 +53,5 @@ landpage:
     text-left-offset: 0%
     text-top-offset: 0%
     button-left-offset: 43%
-    button-top-offset: 90%
+    button-top-offset: 95%
     button: button-esp.svg
