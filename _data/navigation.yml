@@ -21,30 +21,30 @@ landpage:
     image: scene1-1200-480.svg
     height: 480
     text-left-offset: 48%
-    text-top-offset: 22%
+    text-top-offset: 21%
     text: articles recents xxxxxxxxxx xxxxxxxx xxxxxxxxxx Industrialisation Machine Learning a Voxxed Luxembourg
-    button-left-offset: 75%
-    button-top-offset: 25%
+    button-left-offset: 77%
+    button-top-offset: 20%
     button: button-lla.svg
   - title: "Talks"
     url: /talks/
     image: scene2-1200-560.svg
     height: 560
     text-left-offset: 6%
-    text-top-offset: 38%
+    text-top-offset: 39%
     text: sample <b>sample</b> xxxxxxxxxxxx xxxxxxxxxxxx xxx xxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxx
     button-left-offset: 31%
-    button-top-offset: 45%
+    button-top-offset: 40%
     button: button-lla.svg
   - title: "Photos"
     url: /photos/
     image: scene3-1200-600.svg
     height: 600
     text-left-offset: 55%
-    text-top-offset: 58%
+    text-top-offset: 60%
     text: sample <b>sample</b> xxxxxxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxxxx xxxxxxx xxxx xxxxx xxxxxxxxxx
     button-left-offset: 78%
-    button-top-offset: 67%
+    button-top-offset: 58%
     button: button-vlp.svg
   - title: "Qui suis je ?"
     url: /about/
@@ -53,5 +53,5 @@ landpage:
     text-left-offset: 0%
     text-top-offset: 0%
     button-left-offset: 43%
-    button-top-offset: 81%
+    button-top-offset: 90%
     button: button-esp.svg
