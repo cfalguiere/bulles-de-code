@@ -20,30 +20,30 @@ landpage:
     url: /blog/
     image: scene1-1200-480.svg
     height: 480
-    text-left-offset: 50%
-    text-top-offset: 20%
-    text: articles récents : Industrialisation Machine Learning à Voxxed Luxembourg
-    button-left-offset: 60%
+    text-left-offset: 49%
+    text-top-offset: 23%
+    text: articles recents xxxxxxxxxx xxxxxxxx xxxxxxxxxx Industrialisation Machine Learning a Voxxed Luxembourg
+    button-left-offset: 79%
     button-top-offset: 40%
     button: button-lla.svg
   - title: "Talks"
     url: /talks/
     image: scene2-1200-560.svg
     height: 560
-    text-left-offset: 10%
-    text-top-offset: 15%
-    text: sample <b>sample</b>
-    button-left-offset: 20%
+    text-left-offset: 6%
+    text-top-offset: 20%
+    text: sample <b>sample</b> xxxxxxxxxxxx xxxxxxxxxxxx xxx xxxxxxx xxxxxxxx xxxxxxxx xxxxxxxxxx
+    button-left-offset: 31%
     button-top-offset: 40%
     button: button-lla.svg
   - title: "Photos"
     url: /photos/
     image: scene3-1200-600.svg
     height: 600
-    text-left-offset: 60%
-    text-top-offset: 15%
-    text: sample <b>sample</b>
-    button-left-offset: 60%
+    text-left-offset: 55%
+    text-top-offset: 22%
+    text: sample <b>sample</b> xxxxxxxxxxx xxxxxxx xxxxxxx xxxxxxxxxxx xxxxxxx xxxxxxx xxxx xxxxx xxxxxxxxxx
+    button-left-offset: 78%
     button-top-offset: 40%
     button: button-vlp.svg
   - title: "Qui suis je ?"
@@ -52,6 +52,6 @@ landpage:
     height: 600
     text-left-offset: 0%
     text-top-offset: 15%
-    button-left-offset: 45%
-    button-top-offset: 80%
+    button-left-offset: 43%
+    button-top-offset: 81%
     button: button-esp.svg
