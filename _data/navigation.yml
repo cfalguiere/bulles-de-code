@@ -22,7 +22,7 @@ landpage:
     height: 480
     text-left-offset: 50%
     text-top-offset: 20%
-    text: articles r&ecate;cents : Industrialisation Machine Learning &agrave; Voxxed Luxembourg
+    text: articles récents Industrialisation Machine Learning à Voxxed Luxembourg
     button-left-offset: 60%
     button-top-offset: 40%
     button: button-lla.svg
