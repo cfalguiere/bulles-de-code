@@ -5,7 +5,7 @@ last_modified_at: 2019-04-06T16:20:00+02:00s
 author_profile: true
 author: cfalguiere
 header:
-  image: /assets/images/banner-1200-300.svg
+  image: /assets/images/langpage-header.png
 
 ---
 <br/>

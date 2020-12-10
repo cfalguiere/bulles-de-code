@@ -3,7 +3,7 @@ permalink: /photos/
 title: "Photos"
 layout: splash
 header:
-  image: /assets/images/banner-1200-300.svg
+  image: /assets/images/langpage-header.png
 classes: wide
 assets_folder: /assets/posters/
 ---
