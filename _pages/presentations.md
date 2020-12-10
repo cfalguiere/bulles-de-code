@@ -2,7 +2,7 @@
 permalink: /presentations/
 title: "Presentations"
 classes: wide
-assets_folder: /assets/images/langpage-header.png
+assets_folder: /assets/images/landpage-header.png
 author: cfalguiere
 header:
   image: /assets/images/banner-1200-300.svg
