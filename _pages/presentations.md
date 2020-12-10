@@ -2,10 +2,10 @@
 permalink: /presentations/
 title: "Presentations"
 classes: wide
-assets_folder: /assets/images/landpage-header.png
+assets_folder: /assets/presentations/
 author: cfalguiere
 header:
-  image: /assets/images/banner-1200-300.svg
+  image: /assets/images/landpage-header.png
 ---
 {% for group in site.data.presentations.groups %}
 {{ group.name }}
