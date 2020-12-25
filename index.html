@@ -35,15 +35,17 @@ page_assets: /assets/images/landpage/
         <p style="font-family:Helvetica,Arial;font-strech:condensed;color:#bceaea;font-size:1.6rem;padding-top:1.4em;padding-left:0.5em">Blog</p>
       </div>
       <p style="color:#eaeaff;font-size:0.7rem">Industrialisation Machine Learning a Voxxed Luxembourg</p>
-      <a href="{{site.baseurl}}/blog/">
-        <div style="z-index:8"
-          <img style="height:45;width:250;border:none;outline:none"
-                src="{{site.baseurl}}/assets/images/button.png" />
-        </div>
-        <div style="z-index:9"
+      <div>
+        <div style="position:relative;left:0;top:0;z-index:9"
           <p>Lire</p>
         </div>
-      </a>
+        <a href="{{site.baseurl}}/blog/">
+          <div style="position:relative;left:0;top:0;z-index:8"
+            <img style="height:45;width:250;border:none;outline:none"
+                  src="{{site.baseurl}}/assets/images/button.png" />
+          </div>
+        </a>
+      </div>
     </div>
 
     {% for item in site.data.navigation.landpage %}
