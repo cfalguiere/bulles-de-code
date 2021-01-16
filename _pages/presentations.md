@@ -7,6 +7,12 @@ author: cfalguiere
 header:
   image: /assets/images/page-header.png
 ---
+<div>
+  <div style="width:20rem;">
+      <p><img src="{{site.baseurl}}/assets/images/section-talks.svg" /></p>
+  </div>
+</div>
+
 {% for group in site.data.presentations.groups %}
 {{ group.name }}
 
