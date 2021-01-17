@@ -7,11 +7,13 @@ header:
 classes: wide
 assets_folder: /assets/posters/
 ---
-
 <div>
-  <span style="font-size:2em;font-family: 'Source Sans Pro', sans-serif;font-weight: bold;">Les photos</span>
-
+  <div style="width:20rem;">
+      <p><img src="{{site.baseurl}}/assets/images/section-photos.svg" /></p>
+  </div>
+  <p>Test</p>
 </div>
+
 
 {% for poster in site.data.posters %}
 
