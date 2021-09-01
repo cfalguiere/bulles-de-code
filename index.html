@@ -28,19 +28,25 @@ page_assets: /assets/images/landpage/
   <div style="position:relative">
     <img style="width:100%;object-fit: contain;margin: 0"
     src="{{site.baseurl}}{{page.page_assets}}landpage.png"/>
-
-    <div>
-      <p style="border-bottom: 1px solid #bceaea;font-family:Shrikhand,cursive;color:#9ccaba;font-size:1.4rem;">Blog</p>
+  </div>
+  <div>
+      <!-- border-bottom: 1px solid #bceaea; -->
+      <p style="font-family:Shrikhand,cursive;color:#9ccaba;font-size:1.4rem;">Blog</p>
 
       <p style="color:#eaeaff;font-size:0.7rem">Industrialisation Machine Learning a Voxxed Luxembourg</p>
 
       <p style="margin-left:8em;margin-top:0.8em;font-family:Shrikhand,cursive;color:#9ccaba;font-size:1rem;">Lire</p>
 
-    </div>
+  </div>
 
-
+  <div>
     {% for item in site.data.navigation.landpage %}
-           <p style="color:#eaeaea;font-size:0.7rem">test {{item.text}}</p>
+      <p style="font-family:Shrikhand,cursive;color:#9ccaba;font-size:1rem;">test {{item.text}}</p>
+      <p style="color:#eaeaea;font-size:0.7rem">test {{item.text}}</p>
+      <a  href="{{item.url}}">
+        <p style="margin-left:8em;margin-top:0.8em;font-family:Shrikhand,cursive;color:#9ccaba;font-size:1rem;">Lire</p>
+      </a>
+
 
     {% endfor %}
   </div>
