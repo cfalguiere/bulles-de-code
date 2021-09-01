@@ -2,26 +2,7 @@
 layout: splash
 author_profile: false
 classes: wide
-header:
-  overlay_image: /assets/images/banner-1200-300.png
-#  overlay_filter: rgba(119,51,221, 0.1) # same as adding an opacity of 0.5 to a black background
-# overlay_filter: rgba(151,51,221, 0.05) # same as adding an opacity of 0.5 to a black background
-  overlay_filter: rgba(130,51,255, 0.1) # same as adding an opacity of 0.5 to a black background
-  caption: "Photo credit: Claude Falguière"
-  actions:
-    - label: "Lire le blog"
-      url: /blog/
 page_assets: /assets/images/landpage/
-home_gallery:
-  - url: /blog/
-    image_path: /assets/presentations/voxxed-lu-2019/voxxed-lux-2019-falguiere/voxxed-lux-2019-falguiere.001.png
-feature_row1:
-  - url: /blog/pres-voxxed/
-    image_path: /assets/presentations/voxxed-lu-2019/voxxed-lux-2019-falguiere/voxxed-lux-2019-falguiere.001.png
-    btn_label: "Lire"
-    btn_class: "btn--info"
-
-
 ---
 
 
@@ -42,4 +23,65 @@ feature_row1:
 {% include gallery id="home_gallery"  %}
 -->
 
-{% include feature_row id="feature_row1" type="center" %}
+<!-- FIXME -->
+<div style="background-color: ffffff;width:1200;height:2680;">
+  <div style="position:relative">
+    <img style="width:100%;object-fit: contain;margin: 0"
+    src="{{site.baseurl}}{{page.page_assets}}landpage.svg"/>
+
+    <div>
+      <div style="float:left;margin-right:1em;">
+        <img src="{{site.baseurl}}/assets/images/bullet.svg" />
+      </div>
+      <div style="padding-left:4em;width:16em;">
+        <p style="border-bottom: 1px solid #bceaea;font-family:Shrikhand,cursive;color:#9ccaba;font-size:1.4rem;">Blog</p>
+      </div>
+      <p style="color:#eaeaff;font-size:0.7rem">Industrialisation Machine Learning a Voxxed Luxembourg</p>
+      <div style="position:relative;height:200px">
+        <div style="position:absolute;left:0;top:0;z-index:8;">
+          <a href="{{site.baseurl}}/blog/">
+            <img style="border:none;outline:none;"
+                src="{{site.baseurl}}/assets/images/button.svg" />
+          </a>
+        </div>
+        <div style="position:absolute;left:0;top:0;z-index:9">
+          <p style="margin-left:8em;margin-top:0.8em;font-family:Shrikhand,cursive;color:#9ccaba;font-size:1rem;">Lire</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div style="width:20rem;">
+          <p><img src="{{site.baseurl}}/assets/images/section-blog.svg" /></p>
+      </div>
+      <p>Test</p>
+    </div>
+
+    <div>
+      <div style="width:20rem;">
+          <p><img src="{{site.baseurl}}/assets/images/section-talks.svg" /></p>
+      </div>
+      <p>Test</p>
+    </div>
+
+    <div>
+      <div style="width:20rem;">
+          <p><img src="{{site.baseurl}}/assets/images/section-photos.svg" /></p>
+      </div>
+      <p>Test</p>
+    </div>
+
+    {% for item in site.data.navigation.landpage %}
+       <div style="position:absolute;z-index:8;width:40%;top:{{item.text-top-offset}};left:{{item.text-left-offset}}"
+            id="text-overlay">
+           <p style="color:#eaeaea;font-size:0.7rem">{{item.text}}</p>
+       </div>
+        <a href="{{site.baseurl}}{{item.url}}">
+          <div style="position:absolute;z-index:9;width:50%;height:100;top:{{item.button-top-offset}};left:{{item.button-left-offset}};border:none;background-color:transparent;outline:none"
+            <p>&nbsp;</p>
+          </div>
+        </a>
+
+      {% endfor %}
+  </div>
+</div>

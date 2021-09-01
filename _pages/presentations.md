@@ -2,10 +2,17 @@
 permalink: /presentations/
 title: "Presentations"
 classes: wide
-assets_folder: /assets/images/presentations/
+assets_folder: /assets/presentations/
 author: cfalguiere
-banner: /assets/images/banner-1200-300.png
+header:
+  image: /assets/images/page-header.png
 ---
+<div>
+  <div style="width:20rem;">
+      <p><img src="{{site.baseurl}}/assets/images/section-talks.svg" /></p>
+  </div>
+</div>
+
 {% for group in site.data.presentations.groups %}
 {{ group.name }}
 
