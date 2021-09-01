@@ -19,39 +19,18 @@ landpage:
   - title: "Blog"
     url: /blog/
     image: scene1-1200-480.svg
-    height: 480
-    text-left-offset: 49%
-    text-top-offset: 21%
-    text: Industrialisation Machine Learning a Voxxed Luxembourg
-    button-left-offset: 48%
-    button-top-offset: 18%
-    button: button-lla.svg
+    featured:
+      - text: Industrialisation Machine Learning a Voxxed Luxembourg
   - title: "Talks"
     url: /talks/
     image: scene2-1200-560.svg
-    height: 560
-    text-left-offset: 7%
-    text-top-offset: 38%
-    text: Présenations à Devoxx, Voxxed, Breizhcamp
-    button-left-offset: 6%
-    button-top-offset: 36%
-    button: button-lla.svg
+    featured:
+      - text: Présenations à Devoxx, Voxxed, Breizhcamp
   - title: "Photos"
     url: /photos/
     image: scene3-1200-600.svg
-    height: 600
-    text-left-offset: 55%
-    text-top-offset: 60%
-    text: ça arrive bientôt
-    button-left-offset: 54%
-    button-top-offset: 57%
-    button: button-vlp.svg
+    featured:
+      - text: ça arrive bientôt
   - title: "Qui suis je ?"
     url: /about/
     image: scene4-1200-600.svg
-    height: 600
-    text-left-offset: 0%
-    text-top-offset: 0%
-    button-left-offset: 25%
-    button-top-offset: 96%
-    button: button-esp.svg
