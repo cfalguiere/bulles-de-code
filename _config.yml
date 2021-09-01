@@ -20,7 +20,7 @@ title                    : "Bulles de code"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Claude Falguière"
-description              : ""
+description              : "Du code et des bulles"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 #baseurl                  : /le-petit-algonaute/ # the subpath of your site, e.g. "/blog"
 baseurl                  : # the subpath of your site, e.g. "/blog"
