@@ -25,7 +25,7 @@ landpage:
     url: /talks/
     image: scene2-1200-560.svg
     featured:
-      - text: Présenations à Devoxx, Voxxed, Breizhcamp
+      - text: Présentations à Devoxx, Voxxed, Breizhcamp
   - title: "Photos"
     url: /photos/
     image: scene3-1200-600.svg
