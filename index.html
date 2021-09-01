@@ -24,7 +24,7 @@ page_assets: /assets/images/landpage/
 -->
 
 <!-- FIXME -->
-<div style="background-color: ffffff;width:1200;height:2680;">
+<div class="div_background" style="background-color: ffffff;width:1200;height:2680;">
   <div style="position:relative">
     <img style="width:100%;object-fit: contain;margin: 0"
     src="{{site.baseurl}}{{page.page_assets}}landpage.svg"/>
@@ -50,26 +50,6 @@ page_assets: /assets/images/landpage/
       </div>
     </div>
 
-    <div>
-      <div style="width:20rem;">
-          <p><img src="{{site.baseurl}}/assets/images/section-blog.svg" /></p>
-      </div>
-      <p>Test</p>
-    </div>
-
-    <div>
-      <div style="width:20rem;">
-          <p><img src="{{site.baseurl}}/assets/images/section-talks.svg" /></p>
-      </div>
-      <p>Test</p>
-    </div>
-
-    <div>
-      <div style="width:20rem;">
-          <p><img src="{{site.baseurl}}/assets/images/section-photos.svg" /></p>
-      </div>
-      <p>Test</p>
-    </div>
 
     {% for item in site.data.navigation.landpage %}
        <div style="position:absolute;z-index:8;width:40%;top:{{item.text-top-offset}};left:{{item.text-left-offset}}"
