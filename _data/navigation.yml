@@ -20,7 +20,7 @@ landpage:
     url: /blog/
     image: scene1-1200-480.svg
     btn: Lire
-    description: des articles sur Java, Python, le Machine Learning, le design ...
+    description: Des articles sur Java, Python, le Machine Learning, le design ...
     featured:
       - text: Industrialisation Machine Learning à Voxxed Luxembourg
   - title: "Talks"
