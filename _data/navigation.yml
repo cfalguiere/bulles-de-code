@@ -20,7 +20,7 @@ landpage:
     url: /blog/
     image: scene1-1200-480.svg
     featured:
-      - text: Industrialisation Machine Learning a Voxxed Luxembourg
+      - text: Industrialisation Machine Learning à Voxxed Luxembourg
   - title: "Talks"
     url: /talks/
     image: scene2-1200-560.svg

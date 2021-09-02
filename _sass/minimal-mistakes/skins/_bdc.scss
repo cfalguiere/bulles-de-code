@@ -3,9 +3,14 @@
    ========================================================================== */
 
 /* Colors */
+/* brown */
 $background-color: #1d1d1d !default;
+/* light yellow */
 $text-color: #eaeaea !default;
-$primary-color: #e3c278 !default;
+/*$primary-color: #e3c278 !default;*/
+/* light green */
+$primary-color: #d5fff6 !default;
+
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
