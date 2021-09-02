@@ -20,20 +20,19 @@ landpage:
     url: /blog/
     image: scene1-1200-480.svg
     btn: Lire
+    description: des articles sur Java, Python, le Machine Learning, le design ...
     featured:
       - text: Industrialisation Machine Learning à Voxxed Luxembourg
   - title: "Talks"
     url: /talks/
     image: scene2-1200-560.svg
     btn: Lire
-    featured:
-      - text: Présentations à Devoxx, Voxxed, Breizhcamp
+    description: Présentations à Devoxx, Voxxed, Breizhcamp
   - title: "Photos"
     url: /photos/
     image: scene3-1200-600.svg
     btn: Lire
-    featured:
-      - text: ça arrive bientôt
+    description: ça arrive bientôt
   - title: "Qui suis je ?"
     url: /about/
     image: scene4-1200-600.svg

@@ -7,6 +7,8 @@ tags:
   - ML
 excerpt: Présentation Industrialisation Machine Learning à Voxxed Luxembourg
 classes: wide
+header:
+  image: /assets/images/page-header-logo.png
 voxxed_lu_2019_gallery:
   - url: /assets/presentations/voxxed-lu-2019/voxxed-lux-2019-falguiere/voxxed-lux-2019-falguiere.001.png
     image_path: /assets/presentations/voxxed-lu-2019/voxxed-lux-2019-falguiere/voxxed-lux-2019-falguiere.001.png
