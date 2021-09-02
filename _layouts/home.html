@@ -6,7 +6,7 @@ classes: wide
 {{ content }}
 
 <header>
-  <h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
+  <h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h1>
 </header>
 
 {% for post in paginator.posts %}
