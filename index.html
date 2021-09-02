@@ -35,9 +35,11 @@ page_assets: /assets/images/landpage/
       <header><h2>{{item.title}}</h2></header>
       <div style="background-color:#282828;padding:1rem;">
         <p style="color:#eaeaea;font-size:1rem;padding:0;">{{item.description}}</p>
-        {% for featured in item.featured %}
-          <p style="color:#eaeaea;font-size:0.7rem;padding:0;">🔖 {{featured.text}}</p>
-        {% endfor %}
+        {% if item.featured and item.featured.size > 0 %}
+          {% for featured in item.featured %}
+            <p style="color:#eaeaea;font-size:0.7rem;padding:0;">🔖 {{featured.text}}</p>
+          {% endfor %}
+        {% endif %}
       </div>
 
       <a href="{{ item.url }}" class="btn btn--no-outline btn--medium btn--info">{{ item.btn }}</a>
