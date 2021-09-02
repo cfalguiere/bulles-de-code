@@ -14,7 +14,7 @@ header:
 
 {% assign author = site.data.authors[page.author] %}
 {% assign wp_url = author.url_wordpress %}
-Ce site prend la suite de mon ancien site [Claude au pays des 4J]({{ wp_url }}) sous Wordpress.
+Ce site prend la suite de mon ancien site [Claude au pays des 4J]({{ wp_url }}).
 
 <header>
 <h3>Pourquoi Bulles de Code ?</h3>
