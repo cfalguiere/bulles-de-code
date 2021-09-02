@@ -34,16 +34,18 @@ page_assets: /assets/images/landpage/
     {% for item in site.data.navigation.landpage %}
       <header><h2>{{item.title}}</h2></header>
 
-      <div style="background-color:#282828;padding:1rem;margin-bottom:0.5rem;">
-        {% if item.description %}
-          <p style="color:#eaeaea;font-size:1rem;padding:0;margin:0;">{{item.description}}</p>
-        {% endif %}
-        {% if item.featured and item.featured.size > 0 %}
-          {% for featured in item.featured %}
-            <p style="color:#eaeaea;font-size:0.7rem;padding:0;margin:0;">🔖 {{featured.text}}</p>
-          {% endfor %}
-        {% endif %}
-      </div>
+      {% if item.description or item.featured %}
+        <div style="background-color:#282828;padding:0.7rem;margin-bottom:0.3rem;">
+          {% if item.description %}
+            <p style="color:#eaeaea;font-size:1rem;padding:0;">{{item.description}}</p>
+          {% endif %}
+          {% if item.featured and item.featured.size > 0 %}
+            {% for featured in item.featured %}
+              <p style="color:#eaeaea;font-size:0.7rem;padding:0;">🔖 {{featured.text}}</p>
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}
 
       <a href="{{ item.url }}" class="btn btn--no-outline btn--medium btn--info">{{ item.btn }}</a>
 
