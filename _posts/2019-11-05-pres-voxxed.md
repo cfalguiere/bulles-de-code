@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Industrialisation Machine Learning à Voxxed Luxembourg"
 categories:
   - Blog

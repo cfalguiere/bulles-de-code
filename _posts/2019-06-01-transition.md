@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Un nouveau cycle commence"
 categories:
   - Blog
@@ -7,9 +8,15 @@ tags:
 excerpt: Le blog se poursuit sur ce nouveau support
 classes: wide
 assets_folder: /assets/
+header:
+  image: /assets/images/page-header-logo.png
 ---
 
 Me voilà de retour après une longue absence. Un nouveau blog, avec de nouveaux sujets et plus simple à gérer pour moi.
+
+Pourquoi Bulles de Code ?
+
+Du code, avec un peu de légèreté. Ensuite plus de dessins et si j'ai le temps de bulles de BD.
 
 {% assign author = site.data.authors[page.author] %}
 {% assign wp_url = author.url_wordpress %}
@@ -39,4 +46,4 @@ Entre temps, j'avais essayé une autre option pour un autre site lié à mes ate
 
 Ce site est fait de la même manière, Jekyll [Jekyll](https://jekyllrb.com/) et le thème  [Minimal Mistakes](https://mmistakes.github.io/minimal-mistake) et un habillage un peu différent.
 
-J'espère mettre beaucoup de code dans ce site et quelques autres trucs. En attendant, il recence [diverses présentations](presentations/) faites depuis 2014.
+J'espère mettre beaucoup de code dans ce site et quelques autres trucs. En attendant, il recense [diverses présentations](presentations/) faites depuis 2014.
