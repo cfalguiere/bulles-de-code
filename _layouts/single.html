@@ -1,8 +1,9 @@
 ---
 layout: default
-header:
-  image: /assets/images/page-header-logo.png
+logo_path: /assets/images/page-header-logo.png
 ---
+
+<img src="{{ page.logo_path }}" alt="logo" class="page__hero-image">
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
