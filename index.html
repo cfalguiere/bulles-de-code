@@ -33,7 +33,7 @@ page_assets: /assets/images/landpage/
   <div>
     {% for item in site.data.navigation.landpage %}
       {% if item.titleImage %}
-        <img src="/assets/images/landpage/{{item.titleImage}}" />
+        <br><img src="/assets/images/landpage/{{item.titleImage}}" />
       {% else %}
         <header><h2>{{item.title}}</h2></header>
       {% endif %}
