@@ -33,7 +33,7 @@ page_assets: /assets/images/landpage/
   <div>
     {% for item in site.data.navigation.landpage %}
       {% if item.titleImage %}
-        <br><img style="height:{{item.titleHeight}}px;"  src="/assets/images/landpage/{{item.titleImage}}" />
+        <img style="height:{{item.titleHeight}}px;"  src="/assets/images/landpage/{{item.titleImage}}" />
       {% else %}
         <header><h2>{{item.title}}</h2></header>
       {% endif %}
@@ -51,7 +51,14 @@ page_assets: /assets/images/landpage/
         </div>
       {% endif %}
 
-      <a href="{{ item.url }}" class="btn btn--no-outline btn--medium btn--info">{{ item.btn }}</a>
+      <div style="float:right;margin-bottom:2rem;">
+      <a href="{{ item.url }}" class="btn btn--no-outline btn--medium btn--info">
+        <!-- {{ item.btn }} -->
+        <img style="height:30;"  src="/assets/images/landpage/button.png" />
+      </a>
+      </div>
+
+
 
     {% endfor %}
   </div>
