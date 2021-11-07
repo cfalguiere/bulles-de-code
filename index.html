@@ -32,7 +32,11 @@ page_assets: /assets/images/landpage/
 
   <div>
     {% for item in site.data.navigation.landpage %}
-      <header><h2>{{item.title}}</h2></header>
+      {% if item.titleImage %}
+        <img style="height:1rem;" src="{{item.titleImage}}" />
+      {% else %}
+        <header><h2>{{item.title}}</h2></header>
+      {% endif %}
 
       {% if item.description or item.featured %}
         <div style="background-color:#282828;padding:0.7rem;margin-bottom:0.3rem;">
