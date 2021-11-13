@@ -41,5 +41,7 @@ landpage:
     description: ça arrive bientôt
   - title: "Qui suis je ?"
     url: /about/
+    titleImage: text-about.svg
+    titleHeight: 70
     image: scene4-1200-600.svg
     btn: Lire
