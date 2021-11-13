@@ -44,4 +44,5 @@ landpage:
     titleImage: text-about.svg
     titleHeight: 70
     image: scene4-1200-600.svg
+    description: ça arrive bientôt
     btn: Lire
