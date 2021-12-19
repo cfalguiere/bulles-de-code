@@ -10,9 +10,9 @@
    inkscape:export-ydpi="72"
    inkscape:export-xdpi="72"
    inkscape:export-filename="/Users/cfalguiere/Documents/2021-07/git-repos/www.bulles-de-code.fr/assets/images/landpage/button.png"
-   width="203.20737"
-   height="155.54491"
-   viewBox="0 0 53.765286 41.15459"
+   width="220.39539"
+   height="134.33171"
+   viewBox="0 0 58.31295 35.541932"
    version="1.1"
    id="svg8"
    inkscape:version="1.0rc1 (09960d6, 2020-04-09)"
@@ -22,16 +22,17 @@
     <marker
        inkscape:stockid="Arrow1Lstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Lstart"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
+         inkscape:connector-curvature="0"
          id="path868"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#4472c2;stroke-width:1pt;stroke-opacity:1;fill:#4472c2;fill-opacity:1"
-         transform="scale(0.8) translate(12.5,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4472c2;fill-opacity:1;fill-rule:evenodd;stroke:#4472c2;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <inkscape:path-effect
        effect="spiro"
@@ -52,8 +53,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="-58.931501"
-     inkscape:cy="455.39535"
+     inkscape:cx="-41.743484"
+     inkscape:cy="434.18215"
      inkscape:document-units="mm"
      inkscape:current-layer="layer8"
      inkscape:document-rotation="0"
@@ -65,114 +66,114 @@
      inkscape:snap-grids="true"
      inkscape:window-width="1575"
      inkscape:window-height="924"
-     inkscape:window-x="105"
-     inkscape:window-y="100"
+     inkscape:window-x="283"
+     inkscape:window-y="336"
      inkscape:window-maximized="0"
      inkscape:object-nodes="false">
     <inkscape:grid
-       originy="-36.823625"
-       originx="-15.592352"
+       originy="-42.436285"
+       originx="-11.044693"
        type="xygrid"
        id="grid833" />
     <sodipodi:guide
-       position="53.199329,-38.438455"
+       position="57.746992,-38.438453"
        orientation="-1,0"
        id="guide835"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="26.740982,-6.688452"
+       position="31.288645,-6.6884501"
        orientation="-1,0"
        id="guide839"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="66.428667,-33.146789"
+       position="70.97633,-33.146787"
        orientation="1,0"
        id="guide841" />
     <sodipodi:guide
-       position="69.074667,-19.917619"
+       position="73.62233,-19.917617"
        orientation="-1,0"
        id="guide843"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="90.240662,-25.209289"
+       position="94.788325,-25.209287"
        orientation="-1,0"
        id="guide847"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="90.240992,-1.3967869"
+       position="94.788655,-1.396785"
        orientation="-1,0"
        id="guide849"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="-42.050677,25.061547"
+       position="-37.503014,25.061549"
        orientation="0,1"
        id="guide853"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="16.157649,3.8948817"
+       position="20.705312,3.8948836"
        orientation="0,1"
        id="guide855"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="114.05368,-14.625962"
+       position="118.60134,-14.62596"
        orientation="-1,0"
        id="guide906"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="66.428667,-38.438459"
+       position="70.97633,-38.438457"
        orientation="-1,0"
        id="guide26703"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="50.553666,-25.209289"
+       position="55.101329,-25.209287"
        orientation="-1,0"
        id="guide26705"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(245,121,0)" />
     <sodipodi:guide
-       position="145.80351,-33.146788"
+       position="150.35117,-33.146786"
        orientation="1,0"
        id="guide26707" />
     <sodipodi:guide
-       position="2.9284981,48.874041"
+       position="7.4761612,48.874043"
        orientation="0,-1"
        id="guide26709" />
     <sodipodi:guide
-       position="143.15768,-17.271787"
+       position="147.70534,-17.271785"
        orientation="0,-1"
        id="guide26711" />
     <sodipodi:guide
-       position="-5.0090126,-54.313455"
+       position="-0.46134955,-54.313453"
        orientation="-1,0"
        id="guide26720"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="156.38685,-30.500954"
+       position="160.93451,-30.500952"
        orientation="1,0"
        id="guide26759" />
     <sodipodi:guide
-       position="39.970165,54.165721"
+       position="44.517828,54.165723"
        orientation="0,-1"
        id="guide26784" />
   </sodipodi:namedview>
@@ -184,12 +185,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-2.0985858,-18.276111)"
+     transform="translate(2.4490771,-23.888771)"
      style="display:inline"
      inkscape:label="back-bubble"
      id="layer8"
@@ -232,7 +233,7 @@
   </g>
   <g
      style="display:inline"
-     transform="translate(-15.592335,-36.823623)"
+     transform="translate(-11.044672,-42.436283)"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1" />
