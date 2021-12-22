@@ -39,15 +39,15 @@ page_assets: /assets/images/landpage/
       {% endif %}
 
       {% if item.description or item.featured %}
-        <div style="padding:0.7rem;margin-bottom:0.3rem;">
+        <div style="padding:0.3rem;margin-bottom:1rem;">
           {% if item.description %}
             <p style="color:#eaeaea;font-size:1rem;padding:0;">{{item.description}}</p>
           {% endif %}
           {% if item.featured and item.featured.size > 0 %}
             {% for featured in item.featured %}
-              <div style="background-color:#282828;padding:0.7rem;margin:0.3rem;width:4rem;height:4rem;float:left">
+              <div style="text-align:center;background-color:#282828;padding:0.7rem;margin:0.3rem;width:8rem;height:4rem;float:left;">
                 <p style="color:#eaeaea;font-size:0.7rem;padding:0;">
-                <img src="/assets/images/landpage/sep-light.svg" /><br>
+                <img style="display:block;margin-left:auto;margin-right:auto;" src="/assets/images/landpage/sep-light.svg" /><br>
                 <a href="{{featured.url}}">{{featured.text}}</a>
                 </p>
               </div>
