@@ -10,7 +10,7 @@ header:
 
 
 {% for group in site.data.presentations.groups %}
-🗃️ {{ group.name }}
+📁 {{ group.name }}
 
   {% for item in group.items %}
 
