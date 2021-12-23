@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "bdc" #"dark" # "default" # "air", "aqua", "contrast"
 locale                   : "fr-FR"
 title                    : "Bulles de code"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Du code et des bulles" # site tagline that appears below site title in masthead
 name                     : "Claude Falguière"
 description              : "Du code et des bulles"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
