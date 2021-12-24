@@ -4,7 +4,7 @@ title: "Plan"
 excerpt: "Plan de site"
 last_modified_at: 2019-04-06T16:30:00+02:00s
 toc: true
-banner: /assets/images/page-header.png
+banner: /assets/images/landpage-header.png
 ---
 
 

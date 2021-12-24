@@ -5,7 +5,7 @@ classes: wide
 assets_folder: /assets/presentations/
 author: cfalguiere
 header:
-  image: /assets/images/page-header.png
+  image: /assets/images/landpage-header.png
 ---
 
 
