@@ -18,8 +18,8 @@ main:
 landpage:
   - title: "Blog"
     url: /blog/
-    titleImage: text-blog.svg
-    titleHeight: 81
+    titleImage: text-blog-badge.svg
+    titleHeight: 140
     image: scene1-1200-480.svg
     btn: Lire
     description: Des articles sur Java, Python, le Machine Learning, le design ...
