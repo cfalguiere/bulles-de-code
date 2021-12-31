@@ -33,7 +33,9 @@ page_assets: /assets/images/landpage/
   <div>
     {% for item in site.data.navigation.landpage %}
       {% if item.titleImage %}
-        <img style="height:{{item.titleHeight}}px;"  src="/assets/images/landpage/{{item.titleImage}}" />
+        <div style="text-align:center;background-color:#282828;padding:0.7rem;margin:0.3rem;width:8rem;height:8rem;float:left;">
+          <img style="height:{{item.titleHeight}}px;"  src="/assets/images/landpage/{{item.titleImage}}" />
+        </div>
       {% else %}
         <header><h2>{{item.title}}</h2></header>
       {% endif %}
@@ -41,7 +43,7 @@ page_assets: /assets/images/landpage/
       {% if item.description or item.featured %}
           {% if item.description %}
             <div style="text-align:center;background-color:#282828;padding:0.7rem;margin:0.3rem;width:8rem;height:8rem;float:left;">
-              <p style="color:#eaeaea;font-size:1rem;padding:0;">{{item.description}}</p>
+              <p style="color:#eaeaea;font-size:0.7rem;padding:0;">{{item.description}}</p>
             </div>
 
           {% endif %}
