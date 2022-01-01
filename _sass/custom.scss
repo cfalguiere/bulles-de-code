@@ -41,6 +41,8 @@
 .bdc_box_item {
   flex: 1 1 8rem;
   text-align:center;
+  word-break: break-all;
+  overflow-wrap: break-word;
   background-color:#282828;
   padding:0.7rem;
   margin:0.3rem;
