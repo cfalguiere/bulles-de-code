@@ -30,10 +30,10 @@ page_assets: /assets/images/landpage/
     src="{{site.baseurl}}{{page.page_assets}}landpage.png"/>
   </div>
 
-  <div>
+  <div class="bdc_box">
     {% for item in site.data.navigation.landpage %}
       {% if item.titleImage %}
-        <div style="margin:0.3rem;width:8rem;height:8rem;float:left;">
+        <div class="bdc_box_item">
           <img style="height:{{item.titleHeight}}px;"
                src="/assets/images/landpage/{{item.titleImage}}" />
         </div>
@@ -43,16 +43,17 @@ page_assets: /assets/images/landpage/
 
       {% if item.description or item.featured %}
           {% if item.description %}
-            <div style="text-align:center;background-color:#282828;padding:0.7rem;margin:0.3rem;width:8rem;height:8rem;float:left;">
+            <div class="bdc_box_item">
               <p style="color:#eaeaea;font-size:0.7rem;padding:0;">{{item.description}}</p>
             </div>
 
           {% endif %}
           {% if item.featured and item.featured.size > 0 %}
             {% for featured in item.featured %}
-              <div style="text-align:center;background-color:#282828;padding:0.7rem;margin:0.3rem;width:8rem;height:8rem;float:left;">
+              <div class="bdc_box_item bdc_item">
                 <p style="color:#eaeaea;font-size:0.7rem;padding:0;">
-                <img style="height:1rem;display:block;margin-left:auto;margin-right:auto;"
+                <img
+                <!--style="height:1rem;display:block;margin-left:auto;margin-right:auto;"-->
                      src="/assets/images/landpage/sep-light.svg" /><br>
                 <a href="{{featured.url}}">{{featured.text}}</a>
                 </p>
@@ -63,7 +64,7 @@ page_assets: /assets/images/landpage/
 
 
 
-      <div style="padding-top:3rem;margin:0.3rem;width:8rem;height:8rem;float:left;">
+      <div class="bdc_box_item">
       <!--<div style="float:right;margin-bottom:2rem;">-->
         <a href="{{ item.url }}" >
           <!-- {{ item.btn }}  class="btn btn--no-outline btn--medium btn--info" -->
@@ -72,8 +73,6 @@ page_assets: /assets/images/landpage/
         </a>
       </div>
 
-      <div style="clear:both;">
-      </div>
 
     {% endfor %}
   </div>

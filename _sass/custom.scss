@@ -31,3 +31,22 @@
   width: 1200px;
   height: 700px;
 }
+
+.bdc_box {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.bdc_box_item {
+  flex: 1 1 auto;
+}
+
+.bdc_item {
+  text-align:center;
+  background-color:#282828;
+  padding:0.7rem;
+  margin:0.3rem;
+  width:8rem;
+  height:8rem;
+}
