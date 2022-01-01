@@ -30,8 +30,8 @@ page_assets: /assets/images/landpage/
     src="{{site.baseurl}}{{page.page_assets}}landpage.png"/>
   </div>
 
-  <div class="bdc_box">
     {% for item in site.data.navigation.landpage %}
+    <div class="bdc_box">
       {% if item.titleImage %}
         <div class="bdc_box_head">
           <img style="height:{{item.titleHeight}}px;"
@@ -47,7 +47,7 @@ page_assets: /assets/images/landpage/
               <p style="color:#eaeaea;font-size:0.7rem;padding:0;">{{item.description}}</p>
             </div>
 
-          {% endif %}s
+          {% endif %}
           {% if item.featured and item.featured.size > 0 %}
             {% for featured in item.featured %}
               <div class="bdc_box_item">
@@ -72,7 +72,7 @@ page_assets: /assets/images/landpage/
         </a>
       </div>
 
-
+    </div>
     {% endfor %}
-  </div>
+
 </div>
