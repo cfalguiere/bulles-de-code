@@ -33,7 +33,7 @@ page_assets: /assets/images/landpage/
   <div class="bdc_box">
     {% for item in site.data.navigation.landpage %}
       {% if item.titleImage %}
-        <div class="bdc_box_item">
+        <div class="bdc_box_head">
           <img style="height:{{item.titleHeight}}px;"
                src="/assets/images/landpage/{{item.titleImage}}" />
         </div>
@@ -43,19 +43,19 @@ page_assets: /assets/images/landpage/
 
       {% if item.description or item.featured %}
           {% if item.description %}
-            <div class="bdc_box_head">
+            <div class="bdc_box_item">
               <p style="color:#eaeaea;font-size:0.7rem;padding:0;">{{item.description}}</p>
             </div>
 
-          {% endif %}
+          {% endif %}s
           {% if item.featured and item.featured.size > 0 %}
             {% for featured in item.featured %}
               <div class="bdc_box_item">
                 <p style="color:#eaeaea;font-size:0.7rem;padding:0;">
-                <img src="/assets/images/landpage/sep-light.svg" /><br>
-                <!--style="height:1rem;display:block;margin-left:auto;margin-right:auto;"-->
+                  <img src="/assets/images/landpage/sep-light.svg" /><br>
+                  <!--style="height:1rem;display:block;margin-left:auto;margin-right:auto;"-->
 
-                <a href="{{featured.url}}">{{featured.text}}</a>
+                  <a href="{{featured.url}}">{{featured.text}}</a>
                 </p>
               </div>
             {% endfor %}
