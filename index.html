@@ -33,7 +33,7 @@ page_assets: /assets/images/landpage/
     {% for item in site.data.navigation.landpage %}
     <div style="display: flex;flex-flow: row wrap;flex-basis: 10px;justify-content: start;align-items: center;">
       {% if item.titleImage %}
-      <div style="flex: 1 1 10px;padding:0.7rem;margin:0.3rem;">
+      <div style="flex: 1 1 auto;padding:0.7rem;margin:0.3rem;">
           <img style="height:{{item.titleHeight}}px;"
                src="/assets/images/landpage/{{item.titleImage}}" />
         </div>
@@ -43,20 +43,25 @@ page_assets: /assets/images/landpage/
 
       {% if item.description or item.featured %}
           {% if item.description %}
-            <div style="flex: 1 1 10px;text-align: center;word-wrap: break-word;overflow-wrap: break-word;background-color:#282828;padding:0.7rem;margin:0.3rem;">
-              <p style="color:#eaeaea;font-size:0.7rem;padding:0;">{{item.description}}</p>
+            <div style="flex: 1 1 auto;text-align: center;word-wrap: break-word;overflow-wrap: break-word;background-color:#282828;padding:0.7rem;margin:0.3rem;">
+              <div style="width:200px;">
+                <p style="color:#eaeaea;font-size:0.7rem;padding:0;">{{item.description}}</p>
+              </div>
             </div>
 
           {% endif %}
           {% if item.featured and item.featured.size > 0 %}
             {% for featured in item.featured %}
-            <div style="flex: 1 1 10px;text-align: center;word-wrap: break-word;overflow-wrap: break-word;background-color:#282828;padding:0.7rem;margin:0.3rem;">
+            <div style="flex: 1 1 auto;text-align: center;word-wrap: break-word;overflow-wrap: break-word;background-color:#282828;padding:0.7rem;margin:0.3rem;">
+              <div style="width:200px;">
 
                   <p style="color:#eaeaea;font-size:0.7rem;padding:0;">
                     <img style="height:1rem;display:block;margin-left:auto;margin-right:auto;"
                         src="/assets/images/landpage/sep-light.svg" /><br>
                     <a href="{{featured.url}}">{{featured.text}}</a>
                   </p>
+
+                </div>
 
               </div>
             {% endfor %}
@@ -65,11 +70,11 @@ page_assets: /assets/images/landpage/
 
 
 
-      <div style="flex: 1 1 10px;padding:0.7rem;margin:0.3rem;">
+      <div style="flex: 1 1 auto;padding:0.7rem;margin:0.3rem;">
       <!--<div style="float:right;margin-bottom:2rem;">-->
         <a href="{{ item.url }}" >
           <!-- {{ item.btn }}  class="btn btn--no-outline btn--medium btn--info" -->
-          <img style="height:50px;"
+          <img style="height:50px;width:auto;"
                src="/assets/images/landpage/button.png" />
         </a>
       </div>
