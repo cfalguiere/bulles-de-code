@@ -50,15 +50,17 @@ page_assets: /assets/images/landpage/
           {% endif %}
           {% if item.featured and item.featured.size > 0 %}
             {% for featured in item.featured %}
-              <div class="bdc_box_item">
+            <div class="bdc_box_item">
+              <div class="bdc_item_text">
 
                   <p style="color:#eaeaea;font-size:0.7rem;padding:0;">
                     <img style="height:1rem;display:block;margin-left:auto;margin-right:auto;"
                         src="/assets/images/landpage/sep-light.svg" /><br>
                     <a href="{{featured.url}}">{{featured.text}}</a>
                   </p>
-      
-            </div>
+
+                </div>
+              </div>
             {% endfor %}
           {% endif %}
       {% endif %}
