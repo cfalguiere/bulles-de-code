@@ -28,22 +28,22 @@ landpage:
         url: /blog/pres-voxxed/
   - title: "Talks"
     url: /talks/
-    titleImage: text-talks.svg
-    titleHeight: 70
+    titleImage: text-talks-badge.svg
+    titleHeight: 200
     image: scene2-1200-560.svg
     btn: Lire
     description: Présentations à Devoxx, Voxxed, Breizhcamp
   - title: "Photos"
     url: /photos/
-    titleImage: text-photos.svg
-    titleHeight: 75
+    titleImage: text-photos-badge.svg
+    titleHeight: 200
     image: scene3-1200-600.svg
     btn: Lire
     description: ça arrive bientôt
   - title: "Qui suis je ?"
     url: /about/
-    titleImage: text-about.svg
-    titleHeight: 70
+    titleImage: text-about-badge.svg
+    titleHeight: 200
     image: scene4-1200-600.svg
     description: ça arrive bientôt
     btn: Lire
