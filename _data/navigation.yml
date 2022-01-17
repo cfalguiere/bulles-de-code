@@ -4,8 +4,8 @@ main:
     url: /blog/
   - title: "Présentations"
     url: /presentations/
-  - title: "Photos"
-    url: /photos/
+  - title: "Pics"
+    url: /pics/
   - title: "Qui suis je ?"
     url: /about/
   # - title: "Sample Posts"
@@ -34,8 +34,8 @@ landpage:
     btn: Lire
     description: Présentations à Devoxx, Voxxed, Breizhcamp
   - title: "Photos"
-    url: /photos/
-    titleImage: text-photos-badge.svg
+    url: /pics/
+    titleImage: text-pics-badge.svg
     titleHeight: 150
     image: scene3-1200-600.svg
     btn: Lire
