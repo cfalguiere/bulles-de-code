@@ -1,6 +1,6 @@
 ---
-permalink: /photos/
-title: "Photos"
+permalink: /pics/
+title: "Pics"
 layout: splash
 header:
   image: /assets/images/landpage-header.png

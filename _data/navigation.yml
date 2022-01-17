@@ -33,7 +33,7 @@ landpage:
     image: scene2-1200-560.svg
     btn: Lire
     description: Présentations à Devoxx, Voxxed, Breizhcamp
-  - title: "Photos"
+  - title: "Pics"
     url: /pics/
     titleImage: text-pics-badge.svg
     titleHeight: 150
