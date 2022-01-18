@@ -26,6 +26,7 @@ landpage:
     featured:
       - text: Industrialisation Machine Learning à Voxxed Luxembourg
         url: /blog/pres-voxxed/
+        thumbnail: /assets/presentations/voxxed-lu-2019/cover-thumbnail.png
   - title: "Talks"
     url: /talks/
     titleImage: text-talks-badge.svg

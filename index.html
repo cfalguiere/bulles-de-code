@@ -56,8 +56,14 @@ page_assets: /assets/images/landpage/
               <div style="width:150px;">
 
                   <p style="color:#eaeaea;font-size:0.7rem;padding:0;">
-                    <img style="height:1rem;display:block;margin-left:auto;margin-right:auto;"
-                        src="/assets/images/landpage/sep-light.svg" /><br>
+                    {% if item.featured.thumbnail %}
+                      <img style="height:1rem;display:block;margin-left:auto;margin-right:auto;"
+                          src="{{featured.thumbnail}}" />
+                    {% else %}
+                      <img style="height:1rem;display:block;margin-left:auto;margin-right:auto;"
+                        src="/assets/images/landpage/sep-light.svg" />
+                    {% endif %}
+                    <br>
                     <a href="{{featured.url}}">{{featured.text}}</a>
                   </p>
 
