@@ -37,26 +37,32 @@ page_assets: /assets/images/landpage/
     <div style="display: flex;flex-flow: row wrap;flex-basis: 10px;justify-content: start;align-items: center;">
 
       {% for featured in item.featured %}
-        <div style="width:200px;">
+        <div style="width:25%;">
           {% if featured.thumbnail %}
-            <img style="height:4rem;display:block;margin-left:auto;margin-right:auto;"
+            <img style="height:5rem;display:block;margin-left:auto;margin-right:auto;"
                           src="{{featured.thumbnail}}" />
           {% else %}
             <img style="height:1rem;display:block;margin-left:auto;margin-right:auto;"
                         src="/assets/images/landpage/sep-light.svg" />
           {% endif %}
         </div>
+        
+        <div style="width:5%;">
+        </div>
 
-        <div style="width:300px;">
+        <div style="width:50%px;">
           <p style="color:#eaeaea;font-size:0.7rem;padding:0;">
             <a href="{{featured.url}}">{{featured.text}}</a>
           </p>
         </div>
 
-        <div style="width:100px;">
+        <div style="width:5%;">
+        </div>
+
+        <div style="width:15%;">
           <a href="{{ featured.url }}" >
           <!-- {{ item.btn }}  class="btn btn--no-outline btn--medium btn--info" -->
-            <img style="height:50px;width:auto;"
+            <img style="height:30px;width:auto;"
                  src="/assets/images/landpage/button.png" />
           </a>
         </div>
