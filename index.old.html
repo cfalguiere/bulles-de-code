@@ -1,0 +1,94 @@
+---
+layout: splash
+author_profile: false
+classes: wide
+page_assets: /assets/images/landpage/
+---
+
+
+<!-- FIXME -->
+
+<!--
+{% for item in site.data.navigation.landpage %}
+  <a href="{{site.baseurl}}{{item.url}}" style="color:#eaeaea;">
+    <div style="margin: 0 10px 10px 0;float:left;">
+      <img style="max-height:329px;max-width:595px;height:100%x;width:100%;object-fit: contain;"
+           src="{{site.baseurl}}{{page.page_assets}}{{item.image}}"/>
+    </div>
+  </a>
+{% endfor %}
+-->
+
+<!--
+{% include gallery id="home_gallery"  %}
+-->
+
+<!-- FIXME -->
+<div class="div_background" style="background-color: ffffff;width:1200;height:2680;">
+  <div style="position:relative">
+    <img style="width:100%;object-fit: contain;margin: 0"
+    src="{{site.baseurl}}{{page.page_assets}}landpage.png"/>
+  </div>
+
+    {% for item in site.data.navigation.landpage %}
+    <div style="display: flex;flex-flow: row wrap;flex-basis: 10px;justify-content: start;align-items: center;">
+      {% if item.titleImage %}
+      <div style="flex: 1 1 auto;padding:0.7rem;margin:0.3rem;">
+          <img style="height:{{item.titleHeight}}px;"
+               src="/assets/images/landpage/{{item.titleImage}}" />
+        </div>
+      {% else %}
+        <header><h2>{{item.title}}</h2></header>
+      {% endif %}
+
+      {% if item.description or item.featured %}
+          {% if item.description %}
+            <div style="flex: 1 1 auto;text-align: center;word-wrap: break-word;overflow-wrap: break-word;background-color:#282828;padding:0.7rem;margin:0.3rem;">
+              <div style="width:150px;">
+                <p style="color:#eaeaea;font-size:0.7rem;padding:0;">{{item.description}}</p>
+              </div>
+            </div>
+
+          {% endif %}
+          {% if item.featured and item.featured.size > 0 %}
+            {% for featured in item.featured %}
+            <div style="flex: 1 1 auto;text-align: center;word-wrap: break-word;overflow-wrap: break-word;background-color:#282828;padding:0.7rem;margin:0.3rem;">
+              <div style="width:150px;">
+
+                  <p style="color:#eaeaea;font-size:0.7rem;padding:0;">
+                    {% if featured.thumbnail %}
+                      <img style="height:2rem;display:block;margin-left:auto;margin-right:auto;"
+                          src="{{featured.thumbnail}}" />
+                    {% else %}
+                      <img style="height:1rem;display:block;margin-left:auto;margin-right:auto;"
+                        src="/assets/images/landpage/sep-light.svg" />
+                    {% endif %}
+                    <br>
+                    <a href="{{featured.url}}">{{featured.text}}</a>
+                  </p>
+
+                </div>
+
+              </div>
+            {% endfor %}
+          {% endif %}
+      {% endif %}
+
+
+
+      <div style="flex: 1 1 auto;padding:0.7rem;margin:0.3rem;">
+      <!--<div style="float:right;margin-bottom:2rem;">-->
+        <a href="{{ item.url }}" >
+          <!-- {{ item.btn }}  class="btn btn--no-outline btn--medium btn--info" -->
+          <img style="height:50px;width:auto;"
+               src="/assets/images/landpage/button.png" />
+        </a>
+      </div>
+
+      <div style="flex: 1 1 10px;margin-left: auto;">
+      </div>
+
+    </div>
+    {% endfor %}
+
+</div>

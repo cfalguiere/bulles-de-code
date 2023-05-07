@@ -1,0 +1,4 @@
+# local configuration for ytest in Cloud9
+
+url: "https://Jekyll-cfalguiere.c9users.io"
+baseurl: ""

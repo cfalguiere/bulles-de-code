@@ -9,7 +9,7 @@ excerpt: Le blog se poursuit sur ce nouveau support
 classes: wide
 assets_folder: /assets/
 header:
-  image: /assets/images/page-header-logo.png
+  image: /assets/images/landpage-header.png
 ---
 
 {% assign author = site.data.authors[page.author] %}
