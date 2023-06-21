@@ -32,6 +32,8 @@ page_assets: /assets/images/landpage/
   <div>
     <p></p>
   </div>
+  
+  <!--
 
   {% for item in site.data.navigation.featured %}
     <div style="display: flex;flex-flow: row wrap;flex-basis: 10px;justify-content: start;align-items: center;">
@@ -61,7 +63,7 @@ page_assets: /assets/images/landpage/
 
         <div style="width:50px;">
           <a href="{{ featured.url }}" >
-          <!-- {{ item.btn }}  class="btn btn--no-outline btn--medium btn--info" -->
+
             <img style="width:50px;width:auto;"
                  src="/assets/images/landpage/button.png" />
           </a>
@@ -71,5 +73,37 @@ page_assets: /assets/images/landpage/
  
   </div>
   {% endfor %}
+  
+  -->
+  
+  
+  {% for item in site.data.navigation.featured %}
+  <!--
+    <div style="display: flex;flex-flow: row wrap;flex-basis: 10px;justify-content: start;align-items: center;">
+-->
+  <div class="cards">
+      {% for featured in item.featured %}
+      
+        <div class="card">
+     
+             <img src="{{featured.thumbnail}}">
+  
+             <div class="ellipse">
+             </div>
+ 
+             <div class="text">
+              <p style="padding:0;">
+                <a href="{{featured.url}}">{{featured.text}}</a>
+              </p>
+            </div>
+              
+         </div>
+
+            
+      {% endfor %}
+ 
+  </div>
+  {% endfor %}
+
 
 </div>
