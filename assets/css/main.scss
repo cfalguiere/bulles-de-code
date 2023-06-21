@@ -8,105 +8,7 @@
 @import "minimal-mistakes"; // main partials
 
 
-.badge {
-  height: 100px;
-  width: 300px;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  background: blue;
-}
-
-.circle-with-text {
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  text-align: center;
-  display: flex;
-  background: blue;
-}
-
-.example img {
-  width: 60%;
-  position: relative;
-}
-
-.example .overlay {
-  position: absolute;
-  top: 80px;
-  right: 15px;
-  font-weight: bold;
-  text-align: right;
-  font-size: 30px;
-}
-
-.badgebox {
-  #border-radius: 25px;
-  border-radius: 10px 50px 30px;
-  background: #2277CC;
-  padding: 15px;
-  width: 300px;
-  height: 200px;
-  display: flex;
-}
-
-.badgebox img {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  width: 75%;
-  position: relative;
-}
-
-.badgebox button {
-  position: absolute;
-  top: 5px;
-  left: 180px;
-  width: 5%;
-} 
-
-.badgebox .textbox {
-  position: absolute;
-  bottom: 5px;
-  left: 50px;
-  border-radius: 5px;
-  background: #222222;
-  padding: 3px;
-  width: 180px;
-  height: 80px;
-}
-
-
-.stack {
-  border-radius: 10px 50px 50px;
-  background: #37568C;
-  padding: 15px;
-  width: 300px;
-  height: 200px;
-
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.stack .row1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.stack .row1 .img {
-  flex: 4 0;
-}
-
-.stack .row1 .button { 
-  flex: 1;
-}
-
-.stack .text { 
-  flex: 5;
-}
+// home cards
 
 .cards  {
   display: flex;
@@ -123,33 +25,37 @@
   #padding: 5px;
   margin: 5px;
 
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
 }
 
 .card img {
   position: relative;
   top: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card .ellipse {
   position: relative;
   top: -60px;
   background-color: #3471c4;
-  clip-path: ellipse(85% 50% at 50% 80%);
-  width: 200px;
-  height: 150px;
+  clip-path: ellipse(70% 28% at 50% 60%);
+  width: 300px;
+  height: 200px;
 }
 
 .card .text {
   position: relative;
-  top: -150px;
-  width: 200px;
-  padding: 5px;
+  top: -190px;
+  width: 300px;
+  padding: 15px;
+  color: #FFFFFF;
 }
 
-.card .text p {
+.card .text p a {
   text-align: center;
-  font-size:0.7rem;
+  color: #FFFFFF;
+  font-size:0.6rem;
 }
 
